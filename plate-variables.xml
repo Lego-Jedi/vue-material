@@ -1,17 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<plate_variables>
-   <created_date>2016-06-08</created_date>
-   <plate>Zesty.io Starter Foundation</plate>
-   <created_by>Zesty</created_by>
-   <kitchen>barebones</kitchen>
-   <variables>
-      <color name="body-bg" name_friendly="Body Background Color">
-         <category>1</category>
-         <description>The primary background for elements</description>
-         <sort>5</sort>
-         <edit_in_content>1</edit_in_content>
-         <locked>0</locked>
-         <value><![CDATA[#ffffff]]></value>
-      </color>
-       </variables>
-</plate_variables>
+<dropdown name="body-bg-image-repeat" name_friendly="Body Background Image Repeat">
+    <category>1</category>
+    <description>Your option to repeat the uploaded image infinitely, repeat it on the y/x axis, or no repeat at all.</description>
+    <sort>25</sort>
+    <edit_in_content>1</edit_in_content>
+    <locked>0</locked>
+    <value>repeat</value>
+    <options>
+        <option description="No Repeat" value="no-repeat"/>
+        <option description="Repeat on Y Axis" value="repeat-y"/>
+        <option description="Repeat on X Axis" value="repeat-x"/>
+        <option description="Repeat" value="repeat"/>
+    </options>
+</dropdown>
